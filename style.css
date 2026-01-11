@@ -1,0 +1,77 @@
+body {
+  background-color: #07f142;
+  color: #ffffff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.navbar {
+  background-color: #ffd000;
+  align-content: center;
+}
+
+.hero {
+  height: 100vh;
+  background: url("bg3.jpeg") center/cover no-repeat; /* ← Gambar Anda di sini */
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Hapus atau komentari overlay agar gambar terlihat jelas */
+/*
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: #07f142;
+}
+*/
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  text-align: center; /* agar lebih rapi */
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* agar teks lebih terbaca di gambar */
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.btn-coffee {
+  background-color: #ffd000;
+  color: #1b1b1b;
+  border: none;
+  padding: 12px 32px;
+  font-size: 1.2rem;
+  border-radius: 50px;
+}
+
+.btn-coffee:hover {
+  background-color: #e6b800;
+  color: #fff;
+}
+
+.section-dark {
+  padding: 80px 0;
+  background-color: #07f142;
+}
+
+.gallery-img {
+  transition: transform 0.4s ease;
+}
+
+.gallery-img:hover {
+  transform: scale(1.05);
+}
